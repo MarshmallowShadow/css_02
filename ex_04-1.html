@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+        	table {
+        		text-align: center;
+        		border-collapse: collapse;
+        		border-top: 1px solid #808080;
+        		border-bottom: 1px solid #808080;
+        		border-left: none;
+        		border-right: none;
+        	}
+        	
+        	th {
+        		border-bottom: 1px solid #808080;
+        		background-color: #ddd;
+        	}
+        	
+        	td { border-top: 1px dotted #808080; }
+        	
+        	.txt-left { text-align: left; }
+        	
+        	tbody>tr:hover { background-color: #ff0; }
+        	
+        </style>
+    </head>
+
+    <body>
+    	<h1>mysite</h1>
+    	<h2>게시판</h2>
+    	<h3>일반개시판</h3>
+    	<h4>리스트</h4>
+		
+		<table>
+			<colgroup>
+				<col style="width:70px;">
+				<col style="width:350px;">
+				<col style="width:150px;">
+				<col style="width:150px;">
+				<col style="width:150px;">
+				<col style="width:150px;">
+			</colgroup>
+			<thead>
+				<tr>
+					<th>번호</th>
+					<th>제목</th>
+					<th>글쓴이</th>
+					<th>조회수</th>
+					<th>작성일</th>
+					<th>관리</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="top">
+					<td>24</td>
+					<td class="txt-left"><a href="">다섯번째 게시판입니다.</a></td>
+					<td>나나</td>
+					<td>33</td>
+					<td>dddddd</td>
+					<td>삭제</td>
+				</tr>
+				<tr>
+					<td>25</td>
+					<td class="txt-left"><a href="">세번째 게시판입니다.</a></td>
+					<td>나나</td>
+					<td>346</td>
+					<td>dddddd</td>
+					<td>삭제</td>
+				</tr>
+				<tr>
+					<td>26</td>
+					<td class="txt-left"><a href="">질문이 있습니다</a></td>
+					<td>나나</td>
+					<td>467</td>
+					<td>dddddd</td>
+					<td>삭제</td>
+				</tr>
+				<tr>
+					<td>27</td>
+					<td class="txt-left"><a href="">두번째 게시판입니다.</a></td>
+					<td>나나</td>
+					<td>490</td>
+					<td>dddddd</td>
+					<td>삭제</td>
+				</tr>
+				<tr>
+					<td>28</td>
+					<td class="txt-left"><a href="">첫 게시판 ㅎㅎ</a></td>
+					<td>나나</td>
+					<td>607</td>
+					<td>dddddd</td>
+					<td>삭제</td>
+				</tr>
+				<tr>
+					<td>29</td>
+					<td class="txt-left"><a href="">안녕하세요</a></td>
+					<td>나나</td>
+					<td>1024</td>
+					<td>dddddd</td>
+					<td>삭제</td>
+				</tr>
+			</tbody>
+		</table>
+		
+    </body>
+
+</html>
